@@ -4,9 +4,9 @@ import os
 
 class Config:
     #paths setting
-    GMT_FILE = "data/pathway_sets/Liver_pathways_hepatocyte_filtered.gmt"
-    EXPR_FILE = "data/RNAseq/normalized_expression_matrix.csv"
-    META_FILE = "data/RNAseq/RNAseq_metadata_for_PGNN.csv"
+    GMT_FILE = "data/Liver_pathways_hepatocyte_filtered.gmt"
+    EXPR_FILE = "data/normalized_expression_matrix.csv"
+    META_FILE = "data/RNAseq_metadata_for_PGNN.csv"
 
     SAVE_DIR = "results/models/v5_primary_proximity"
     os.makedirs(SAVE_DIR, exist_ok=True)
